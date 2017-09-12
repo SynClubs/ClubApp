@@ -1,0 +1,49 @@
+page-home {
+
+}
+
+// Overall
+.scroll-content {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 1;
+    display: block;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    will-change: scroll-position;
+    contain: size style layout;
+    background-color: #437fe0;
+}
+
+// Toolbar for Home
+.hometitle {
+    text-align: center;
+}
+
+// Slideshow
+.swiper-container-android .swiper-slide, .swiper-wrapper {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    height: 200px;
+    width: 100%;
+}
+
+// Clubs
+.yourclub {
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
+
+.clubs {
+    color: white;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+}
+
