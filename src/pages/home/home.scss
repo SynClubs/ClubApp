@@ -16,7 +16,7 @@ page-home {
     -webkit-overflow-scrolling: touch;
     will-change: scroll-position;
     contain: size style layout;
-    background-color: #437fe0;
+    background-color: darkred;
 }
 
 // Toolbar for Home
@@ -41,7 +41,7 @@ page-home {
 }
 
 .slidebackground {
-    background-color: #454749;
+    background-color: #171717;
     position: absolute;
     top: 0px;
     left: 0px;
