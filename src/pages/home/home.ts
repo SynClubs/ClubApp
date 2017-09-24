@@ -8,7 +8,7 @@ import { NavController } from 'ionic-angular';
 export class HomePage {
 
   constructor(public navCtrl: NavController) {
-
+    
   }
 
   slideData = [{ image: "http://p7cdn4static.sharpschool.com/userfiles/servers/server_467729/image/school1.jpg" },

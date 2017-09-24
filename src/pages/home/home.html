@@ -1,4 +1,7 @@
 <ion-header>
+  	
+<!-- Backand SDK for Angular -->
+<script src="//cdn.backand.net/backand/dist/1.8.2/backand.min.js"></script>
   <ion-navbar>
     <ion-title class="hometitle">
       Welcome to Synclubs
@@ -7,7 +10,8 @@
 </ion-header>
 
 <ion-content padding>
-
+ 
+  
 <div class="slidebackground">
     <ion-slides autoplay="5000" loop="true" speed="3000">
         <ion-slide *ngFor="let slide of slideData">
@@ -20,11 +24,44 @@
 <div>
     
     <div class="clubs">
-    <p>•Coding ;)</p>
-    <p>•Art</p>
-    <p>•Cross Country</p>
+        <ion-list>
+            <ion-item>
+              <ion-thumbnail item-start>
+                <img src="https://d1xwtr0qwr70yv.cloudfront.net/assets/tech/node-080a822911ecbc9f374324a29041a005.svg">
+              </ion-thumbnail>
+              <h2>Coding</h2>
+              <p>Learn JavaScript!</p>
+              <button ion-button clear item-end>View</button>
+            </ion-item>
+          </ion-list>
+ 
+          <ion-list>
+              <ion-item>
+                <ion-thumbnail item-start>
+                  <img src="http://www.brandchannel.com/wp-content/uploads/2017/02/dot-art-logo.jpg">
+                </ion-thumbnail>
+                <h2>Art</h2>
+                <p>Imagination on Paper!</p>
+                <button ion-button clear item-end>View</button>
+              </ion-item>
+            </ion-list>
+
+            <ion-list>
+                <ion-item>
+                  <ion-thumbnail item-start>
+                    <img src="http://96.0.114.43/images/cdr_logos/logo_running.JPG">
+                  </ion-thumbnail>
+                  <h2>Cross Country</h2>
+                  <p>Runnin' Those Miles!</p>
+                  <button ion-button clear item-end>View</button>
+                </ion-item>
+              </ion-list>
+          
     </div>
 </div>
+
+<br>
+<br>
 
 <h1 class="ribbon">
     <strong class="ribbon-content">Your Clubs</strong>
